@@ -5,7 +5,6 @@
     <meta name="renderer" content="webkit">
     <link href="{{ asset('bundle/css/common/base.css') }}" rel="stylesheet">
 
-
     <link href="{{ asset('bundle/css/print_preSee.css') }}" rel="stylesheet">
     <link href="{{ asset('bundle/css/quemain.css') }}" rel="stylesheet">
     <style media="print">

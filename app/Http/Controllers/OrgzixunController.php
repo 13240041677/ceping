@@ -25,4 +25,9 @@ class OrgzixunController extends Controller
     {
         return view('ZiXunGuanLi.PrintPreSee');
     }
+
+    public function Report()
+    {
+        return view('ZiXunGuanLi.Report');
+    }
 }

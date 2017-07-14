@@ -13,9 +13,9 @@ webpackJsonp([28], {
             render: function() {
                 $.ajax({
                     type: "post",
-                    url: "/OrgExam/Exam/GetExamCount",
-                    dataType: "json",
+                    url: "https://oms.mofangge.com/Subject/SubExam/GetExamCount",
                     data: {
+                        'userInfo': '{"AuthID":"47K41D5885D","OrgID":"2","UserID":"3","StructureID":"3"}',
                         examType: "0"
                     },
                     success: function(n) {

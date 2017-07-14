@@ -31,7 +31,6 @@ ol {
 }
 a {
     text-decoration: none;
-    color: #000000;
 }
 input {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -359,7 +358,7 @@ body {
     color: #cb441e;
 }
 .before-text:before {
-    content: "璇疯緭鍏ユ悳绱㈠唴瀹�";
+    content: "è¯·è¾“å…¥æœç´¢å†…å®¹";
     color: #b1a9ab;
     line-height: 32px;
     font-weight: normal;
@@ -493,7 +492,7 @@ body {
 .content-bottom {
     height: 20px;
 }
-/*娣诲姞鍛樺伐 娣诲姞閮ㄩ棬 鎵归噺缁垂绛夋寜閽畇tart*/
+/*æ·»åŠ å‘˜å·¥ æ·»åŠ éƒ¨é—¨ æ‰¹é‡ç»­è´¹ç­‰æŒ‰é’®start*/
 .handle-btn {
     width: 75px;
     border-radius: 2px;
@@ -509,8 +508,8 @@ body {
 .handle-btn:hover {
     background: #b73611;
 }
-/*娣诲姞鍛樺伐 娣诲姞閮ㄩ棬 鎵归噺缁垂绛夋寜閽甧nd*/
-/*鏌ョ湅鎸夐挳start*/
+/*æ·»åŠ å‘˜å·¥ æ·»åŠ éƒ¨é—¨ æ‰¹é‡ç»­è´¹ç­‰æŒ‰é’®end*/
+/*æŸ¥çœ‹æŒ‰é’®start*/
 .see-btn {
     border-radius: 2px;
     display: inline-block;
@@ -527,8 +526,8 @@ body {
     background: #cb441e;
     color: #ffffff;
 }
-/*鏌ョ湅鎸夐挳end*/
-/*table鏍峰紡start*/
+/*æŸ¥çœ‹æŒ‰é’®end*/
+/*tableæ ·å¼start*/
 .table {
     width: 100%;
     text-align: left;
@@ -600,8 +599,8 @@ body {
 .my_table .four td span {
     background: #c78abf;
 }
-/*table鏍峰紡end*/
-/*鎶ュ憡椤甸潰table start*/
+/*tableæ ·å¼end*/
+/*æŠ¥å‘Šé¡µé¢table start*/
 .report-table {
     width: 100%;
     font-size: 14px;
@@ -620,8 +619,8 @@ body {
     text-align: center;
     border: 1px solid #e7e7e7;
 }
-/*鎶ュ憡椤甸潰table end*/
-/*淇敼椤甸潰鐨則able鏍峰紡 start*/
+/*æŠ¥å‘Šé¡µé¢table end*/
+/*ä¿®æ”¹é¡µé¢çš„tableæ ·å¼ start*/
 .small-table {
     width: 100%;
     text-align: left;
@@ -647,15 +646,15 @@ body {
 .small-table tbody tr td:first-child {
     padding-left: 20px;
 }
-/*淇敼椤甸潰鐨則able鏍峰紡 end*/
-/*闈㈠寘灞憇tart*/
+/*ä¿®æ”¹é¡µé¢çš„tableæ ·å¼ end*/
+/*é¢åŒ…å±‘start*/
 .crumb {
     height: 16px;
     line-height: 16px;
     color: #333333;
 }
-/*闈㈠寘灞慹nd */
-/*棣栭〉鍩烘湰妗嗘灦鏍峰紡start*/
+/*é¢åŒ…å±‘end */
+/*é¦–é¡µåŸºæœ¬æ¡†æž¶æ ·å¼start*/
 #left-menu {
     z-index: 99;
     position: fixed;
@@ -702,7 +701,6 @@ body {
 }
 #left-menu .student-manage {
     background: url('../../../bundle/img/student-manage.png') 0 center no-repeat;
-    color: #334d17;
 }
 #left-menu .student-manage.active {
     color: #334d17;
@@ -954,8 +952,8 @@ body {
     margin-left: 3%;
     margin-right: 3%;
 }
-/*棣栭〉鍩烘湰妗嗘灦鏍峰紡end*/
-/*鎿嶄綔鎸夐挳start*/
+/*é¦–é¡µåŸºæœ¬æ¡†æž¶æ ·å¼end*/
+/*æ“ä½œæŒ‰é’®start*/
 .operate-btn {
     border-radius: 2px;
     display: inline-block;
@@ -973,8 +971,8 @@ body {
     background: #cb441e;
     color: #ffffff;
 }
-/*鎿嶄綔鎸夐挳end*/
-/*寮圭獥鏍峰紡start*/
+/*æ“ä½œæŒ‰é’®end*/
+/*å¼¹çª—æ ·å¼start*/
 .popup {
     z-index: 103;
     width: 360px;
@@ -1090,8 +1088,8 @@ body {
     height: 13px;
     background: url("../../../bundle/img/close.png") no-repeat;
 }
-/*寮圭獥鏍峰紡end*/
-/*寮规鏍峰紡2 start*/
+/*å¼¹çª—æ ·å¼end*/
+/*å¼¹æ¡†æ ·å¼2 start*/
 .pop-up {
     z-index: 101;
     position: fixed;
@@ -1133,7 +1131,7 @@ body {
     color: white;
     border-radius: 2px;
 }
-/*寮规鏍峰紡2 end*/
+/*å¼¹æ¡†æ ·å¼2 end*/
 /*search*/
 .search-text {
     height: 32px;
@@ -1158,7 +1156,7 @@ body {
     border-bottom-right-radius: 2px;
 }
 /*search end*/
-/*鎻愮ず淇℃伅 start*/
+/*æç¤ºä¿¡æ¯ start*/
 .error-tip {
     display: inline-block;
     padding: 0 5px;
@@ -1171,7 +1169,7 @@ body {
     border: 1px solid #ffa395;
     background-color: #fff3f3;
 }
-/*鎻愮ず淇℃伅 end*/
+/*æç¤ºä¿¡æ¯ end*/
 .bold {
     font-weight: bold;
 }
@@ -1250,7 +1248,7 @@ body {
     background: #bababa;
     color: #fff;
 }
-/*涓嬫媺鎸夐挳寮€濮�*/
+/*ä¸‹æ‹‰æŒ‰é’®å¼€å§‹*/
 .selects li:hover {
     background: #dddbdb;
     cursor: pointer;
@@ -1309,8 +1307,8 @@ body {
     width: 100%;
     height: 100%;
 }
-/*涓嬫媺鎸夐挳缁撴潫*/
-/*涓嬫媺鎸夐挳寮€濮�*/
+/*ä¸‹æ‹‰æŒ‰é’®ç»“æŸ*/
+/*ä¸‹æ‹‰æŒ‰é’®å¼€å§‹*/
 .tree_selects {
     border: 1px solid #dae1e7;
     border-radius: 4px;
@@ -1342,7 +1340,7 @@ body {
     text-align: center;
     border-radius: 4px;
 }
-/*涓嬫媺鎸夐挳缁撴潫*/
+/*ä¸‹æ‹‰æŒ‰é’®ç»“æŸ*/
 .color-title {
     color: #6b7981;
 }

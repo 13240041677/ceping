@@ -52,4 +52,5 @@ Route::get('/OrgZiXun/ZiXunGuanLi/IndexCounselor', 'OrgzixunController@FilterTes
 Route::get('/OrgZiXun/ZiXunGuanLi/ContactIndexCounselor', 'OrgzixunController@ContactIndexCounselor');
 Route::get('/OrgExam/Index/SubReport', 'OrgzixunController@SubReport');
 Route::get('/OrgExam/Index/PrintPreSee', 'OrgzixunController@PrintPreSee');
+Route::get('/OrgExam/Index/Report', 'OrgzixunController@Report');
 
