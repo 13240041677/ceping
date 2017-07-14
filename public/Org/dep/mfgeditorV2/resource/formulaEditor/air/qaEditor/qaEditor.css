@@ -1,0 +1,39 @@
+/*width 680 height 96 */
+.qaEditor{ width: 678px;}/*width 680-2 */
+.qaEditor .qsp{background-image: url(img_d/normal_sp.png);background-repeat: no-repeat;}
+/*.qaEditor .fomBtnWrp{left: 10px;bottom: 3px;width:100%;background:rebeccapurple;}*/
+.qaEditor .fomBtnWrp{left: 0px;bottom: 2px;width:98.8%;background:#fbfbfb;/*border-top:solid 1px #dae1e7*/}
+
+/*盲赂鈥懊ぢ嘎ヂぢヂ濃€斆ヂ钙捗ヂ扁偓*/
+.qaEditor .feTextArea,.qaEditor .textArea,.qaEditor .backFocusLayer{left:-1px;top:0px;border-width:1px;border-style:solid;border-color:#cac7be;}
+.qaEditor .textArea {top:3px;}
+.qaEditor .textArea_tips{width: 654px;height: 96px;left:0px;top:0px;padding:10px 12px;color: #bfbfbf;cursor: text;background-image: url(about:blank);}/*width 680-46,height 96 */
+.qaEditor .textArea{width: 654px;height: 84px;padding:5px 12px;color: #666;font-size: 14px;border: none;}/*width 680-46 height 96-12*/
+.qaEditor .feTextArea{width: 678px;height: 94px;}/*width 680-2 height 96-2*/
+.qaEditor .backFocusLayer{width: 678px;height: 94px}/*width 680-2 height 96-2*/
+.qaEditor .feTextArea{cursor:auto;overflow: auto; position:relative;_position:absolute;}
+.qaEditor .feTextArea .editorTables{margin: 8px 0 0 10px;width: 90%;position: absolute;z-index: 1;}
+.qaEditor .feTextArea .editorTablesEx{cursor: text;height: 100%;width: 100%;left: 0;top: 0;top: -20px;position: absolute;z-index: 0;}
+/*盲赂鈥懊ぢ嘎ヂぢヂ濃€斆ヂ钙捗ヂ扁偓*/
+
+.qaEditor .fomBtn{width:70px;height:25px;line-height:25px;font-size: 12px;color: #666;display:block;cursor:pointer;}
+.qaEditor .fomBtn:hover{text-decoration: none;}
+.qaEditor .fomBtn .btn-text{width: 24px;height: 25px;line-height: 25px;margin: 0px 0px 0px 6px;}
+.qaEditor .fomBtn .btn-icon{width: 16px;height: 13px;background-position: -16px 0px;margin: 5px 0px 0px 4px;}
+.qaEditor .fomBtn .btn-arrow{width: 6px;height: 4px;background-position: -48px 0px;margin: 10px 0px 0px 6px;}
+.sEditorBox{position: relative;width: 680px;}/*width 680 */
+
+.index .sEditorBox .sEB_bd{background:#fff;}
+
+
+/*氓藛鈥∶β嵚⒚ε掆€懊┾€櫬�*/
+.sEditorBoxSelect{margin-bottom:10px;}
+.switchBtn{margin-left:16px;color:#999;cursor: pointer;}
+.switchBtn:hover{text-decoration: none;}
+.sEditorBoxSelect .active{color:#009966;font-weight:bold;}
+/*.sEditorBoxSelect .switchBtn_2{display: none;}*/
+/*.sebForm{left: 0px;top: 0px;position: absolute;}*/
+/*.sEditorCenter{width: 680px;}/*width 680 */
+.editorForm{width: 680px;}/*width 680 */
+.focusStyle .feTextArea,.focusStyle .textArea,.focusStyle .backFocusLayer{border-color: #69c6b3;}
+.wordNum.overflowError{color: red;}

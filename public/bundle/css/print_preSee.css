@@ -1,0 +1,68 @@
+body {
+    font-family: '寰蒋闆呴粦';
+    background: #ffffff;
+}
+.container1,
+.container2 {
+    width: 1130px;
+    margin: 0 auto;
+}
+.fl_right {
+    float: right;
+    margin-top: 60px;
+    background: #cb441e;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 0px 20px;
+}
+.fl_right img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.container2 .show_test hr {
+    border: none;
+    border-top: 1px solid #dee5e7;
+    margin: 5px 0 10px;
+}
+.header_paper {
+    height: 113px;
+    line-height: 113px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.overflow {
+    margin-left: 0!important;
+}
+.base_message span {
+    display: inline-block;
+    width: 32%;
+    height: 50px;
+    line-height: 50px;
+    color: #222629;
+    font-size: 14px;
+}
+.issue {
+    word-wrap: break-word;
+}
+.container2 {
+    color: #222629;
+    font-size: 14px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.bingo {
+    color: #97dfc4;
+}
+.recoment {
+    font-weight: 700;
+}
+.last_result {
+    margin-left: 40px;
+}
+.warning {
+    color: #e36a0c;
+}
+
+/*# sourceMappingURL=maps/print_preSee.css.map */

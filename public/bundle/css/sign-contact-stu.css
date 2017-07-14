@@ -1,0 +1,219 @@
+.evalution-box {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.select {
+    width: 94px;
+    height: 24px;
+    color: #797979;
+}
+.select option {
+    color: #797979;
+}
+.green {
+    color: #9cc382;
+}
+/*澶撮儴瀵艰埅寮€濮�*/
+.all-stu,
+.mystu-icon,
+.all-stu-on,
+.mystu-icon-on,
+.dele-icon {
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    background: url("../../bundle/img/icon.png") no-repeat;
+    vertical-align: middle;
+}
+.all-stu {
+    background-position: -247px -351px;
+}
+.all-stu-on {
+    background-position: -219px -351px;
+}
+.mystu-icon {
+    background: url("../../bundle/img/black-cap.png") no-repeat -1px 3px;
+}
+.mystu-icon-on {
+    background: url("../../bundle/img/red-cap.png") no-repeat -1px 3px;
+}
+.title-nav {
+    padding: 0 3px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+.title-nav-on {
+    border-bottom: 3px solid #cb441e;
+    color: #cb441e;
+}
+/*澶撮儴瀵艰埅缁撴潫*/
+/*淇敼鍜ㄨ甯堟寜閽畇tart*/
+.edit-btn {
+    border-radius: 2px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    width: 80px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #e5e5e5;
+}
+.edit-btn:hover {
+    border: 1px solid #cb441e;
+    background: #cb441e;
+    color: #ffffff;
+}
+/*淇敼鍜ㄨ甯堟寜閽甧nd*/
+.edit-box .popup {
+    width: 360px;
+    height: 390px;
+    margin-left: -180px;
+    margin-top: -195px;
+}
+.table thead tr th:first-child {
+    padding-left: 0;
+    text-align: center;
+}
+.table tbody tr td:first-child {
+    padding-left: 0;
+    text-align: center;
+}
+.edit-box .popupbox {
+    height: 310px;
+    padding-top: 30px;
+}
+.edit-tea-box {
+    width: 186px;
+    height: 199px;
+    margin: 0 auto;
+    border: 1px solid #bababa;
+    padding: 20px 30px;
+    overflow-y: auto;
+}
+.middle {
+    vertical-align: middle;
+}
+.manage-popup .popup {
+    width: 530px;
+    height: 376px;
+    margin-left: -250px;
+    margin-top: -188px;
+}
+.manage-popup .popupbox {
+    width: 470px;
+    min-height: 299px;
+    padding: 0 30px;
+    padding-top: 20px;
+}
+.manage-popup .popupbox .handle {
+    padding-bottom: 25px;
+}
+.class-detail {
+    width: 470px;
+    height: 200px;
+    border: 1px solid #bababa;
+    overflow-y: auto;
+    font-size: 12px;
+}
+.class-detail table tr th,
+.class-detail table tr td {
+    text-align: center;
+}
+.dustbin {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+    background: url("../../bundle/img/icon.png") no-repeat;
+}
+.dustbin {
+    background-position: -504px -92px;
+}
+.change-num-box {
+    display: inline-block;
+}
+.change-num-box i {
+    width: 18px;
+    height: 18px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid #bababa;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.input-num {
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    color: #bababa;
+    border: 1px solid #bababa;
+}
+.alert-error {
+    width: 280px;
+    height: 23px;
+    border: 1px solid #cb441e;
+    line-height: 23px;
+    padding: 0 10px;
+    border-radius: 4px;
+    color: #cb441e;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.account-box .mypopup {
+    width: 360px;
+}
+.account-news {
+    width: 270px;
+    height: 104px;
+    overflow-y: auto;
+    padding: 5px 15px;
+    border: 1px solid #bababa ;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.num-news {
+    width: 300px;
+    margin: 10px auto;
+}
+.account-time-box {
+    width: 300px;
+    margin: 0 auto;
+}
+.account-time {
+    max-height: 104px;
+    overflow-y: auto;
+    padding-left: 10px;
+}
+.border {
+    border: 1px solid #bababa ;
+}
+.account-news li,
+.account-time li {
+    margin-bottom: 10px;
+}
+.account-time label {
+    cursor: pointer;
+}
+.none {
+    visibility: hidden;
+}
+.dele-icon {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url("../../bundle/img/dele.png") no-repeat;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.account-time input[type=checkbox] {
+    vertical-align: middle;
+}
+
+/*# sourceMappingURL=maps/sign-contact-stu.css.map */

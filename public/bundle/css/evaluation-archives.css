@@ -1,0 +1,102 @@
+.evalution-box {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.select {
+    width: 94px;
+    height: 24px;
+    color: #797979;
+}
+.select option {
+    color: #797979;
+}
+.green {
+    color: #9cc382;
+}
+/*澶撮儴瀵艰埅寮€濮�*/
+.all-stu,
+.mystu-icon,
+.all-stu-on,
+.mystu-icon-on,
+.dele-icon {
+    width: 20px;
+    height: 25px;
+    display: inline-block;
+    background: url("../../bundle/img/icon.png") no-repeat;
+    vertical-align: middle;
+}
+.all-stu {
+    background-position: -247px -351px;
+}
+.all-stu-on {
+    background-position: -219px -351px;
+}
+.mystu-icon {
+    background: url("../../bundle/img/black-cap.png") no-repeat -1px 3px;
+}
+.mystu-icon-on {
+    background: url("../../bundle/img/red-cap.png") no-repeat -1px 3px;
+}
+.title-nav {
+    padding: 0 3px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+.title-nav-on {
+    border-bottom: 3px solid #cb441e;
+    color: #cb441e;
+}
+/*澶撮儴瀵艰埅缁撴潫*/
+/*澶囨敞寮规寮€濮�*/
+.remarks .mypopup {
+    width: 420px;
+    min-height: 170px;
+}
+.remarks .mypopup .popupbox {
+    width: 330px;
+    padding: 0 45px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.news-box {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-bottom: 20px;
+}
+.remarks .mypopup .popupbox p {
+    line-height: 25px;
+    font-size: 14px;
+}
+.delete-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url("../../bundle/img/icon.png") no-repeat;
+    background-position: -542px -91px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.input-box {
+    position: relative;
+    height: 78px;
+    width: 326px;
+}
+.remarks .mypopup textarea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 1px solid silver;
+    width: 323px;
+    height: 72px;
+    display: block;
+    resize: none;
+}
+.input-box .count-num {
+    position: absolute;
+    bottom: 2px;
+    right: 7px;
+}
+/*澶囨敞寮规缁撴潫*/
+
+/*# sourceMappingURL=maps/evaluation-archives.css.map */

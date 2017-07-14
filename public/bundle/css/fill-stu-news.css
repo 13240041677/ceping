@@ -1,0 +1,76 @@
+.fillstu-news-box {
+    margin: 0 auto;
+    overflow: hidden;
+    color: #333333;
+}
+.sun-icon {
+    vertical-align: top;
+    width: 22px;
+    height: 19px;
+    display: inline-block;
+    background: url("../../bundle/img/icon.png") no-repeat;
+    background-position: -608px -129px;
+}
+.mt90 {
+    margin-top: 90px;
+}
+.mt60 {
+    margin-top: 60px;
+}
+.mb60 {
+    margin-bottom: 60px;
+}
+input {
+    border: 1px solid #bababa;
+    display: inline-block;
+    height: 25px;
+    vertical-align: middle;
+    border-radius: 2px;
+    padding-left: 3px;
+    color: #333333;
+    font-size: 14px;
+}
+.name-input {
+    width: 70px;
+}
+.news-box li,
+.email-box li {
+    float: left;
+    width: 33.33%;
+}
+.mb68 {
+    margin-bottom: 68px;
+}
+.phone-input {
+    width: 120px;
+}
+.email-input {
+    width: 220px;
+}
+.fillstu-news-box .error-tip {
+    width: 120px;
+    display: block;
+    margin-top: 5px;
+    margin-left: 52px;
+    color: #cb441e;
+    background: #fff3f3;
+}
+.clear-box {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 90px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #bababa;
+    border-radius: 2px;
+}
+.clear-box:hover {
+    background: #cb441e;
+}
+.submit:hover {
+    background: #b73611;
+}
+
+/*# sourceMappingURL=maps/fill-stu-news.css.map */
