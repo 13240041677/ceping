@@ -107,7 +107,8 @@
                                     <th>总计</th>
                                 </tr>
                                 </thead>
-                                <tbody id="bottomImps"><tr>                  <td rowspan="1" class="b">未掌握</td>         <td>名词词义</td>         <td>重难点</td>         <td>必考</td>         <td>20分</td>         <td class="ss" rowspan="1">20分</td>     </tr></tbody>
+                                <tbody id="bottomImps">
+                                </tbody>
                             </table>
                             <div id="pointGotChart1" class="mt20" style="width: 100%; height: 300px; -webkit-tap-highlight-color: transparent; user-select: none; position: relative; background: transparent;" _echarts_instance_="ec_1499932648694"><div style="position: relative; overflow: hidden; width: 1160px; height: 300px;"><canvas width="2320" height="600" data-zr-dom-id="zr_0" style="position: absolute; left: 0px; top: 0px; width: 1160px; height: 300px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></canvas></div><div></div></div>
                             <div class="light-line"></div>
