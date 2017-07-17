@@ -45,7 +45,7 @@
                                 <div class="left difficult-level" id="P">   <span class="level-name" id="1" data-is="0">时间偏好类型</span>    <span class="level-name" id="2" data-is="0">认知方式类型</span>    <span class="level-name" id="3" data-is="0">交互环境类型</span>    <span class="level-name" id="4" data-is="0">直觉感觉类型</span>    <span class="level-name" id="5" data-is="0">任务处理类型</span>    <span class="level-name" id="6" data-is="0">信息接受类型</span>    <span class="level-name" id="7" data-is="0">信息处理类型</span>    <span class="level-name" id="8" data-is="0">记忆风格类型</span>    <span class="level-name" id="9" data-is="0">学习场景类型</span>    <span class="level-name" id="10" data-is="0">背景声音类型</span>   </div>
                             </div>
                         </div>
-                        <a href=" {{ asset('/OrgExam/Index/SetInfo') }}"><div class="test-btn mt80" data-on="1" id="btnBegin" style="cursor: pointer">开始测试</div></a>
+                        <div class="test-btn mt80" data-on="1" id="btnBegin" style="cursor: pointer">开始测试</div>
                         <input type="hidden" id="U" value="M">
                     </div>
                 </div>
@@ -57,4 +57,7 @@
 
         </div>
     </div>
+@endsection
+@section('javaScript')
+    <script src="{{ asset('bundle/js/BeLearnTest.js') }}"></script>
 @endsection

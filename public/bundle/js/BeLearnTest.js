@@ -43,8 +43,9 @@ webpackJsonp([3], {
                     "data-on": "0"
                 }),
                     $.ajax({
-                        url: "/OrgExam/Exam/SaveEn",
+                        url: "https://oms.mofangge.com/Ability/index/SaveAbilityExam",
                         data: {
+                            'userInfo': '{"AuthID":"47K41D5885D","OrgID":"2","UserID":"3","StructureID":"3"}',
                             ExamID: m,
                             data: JSON.stringify(d)
                         },
@@ -69,9 +70,11 @@ webpackJsonp([3], {
             },
             render: function() {
                 $.ajax({
-                    url: "/OrgExam/Exam/GetEn",
-                    dataType: "json",
+                    url: "https://oms.mofangge.com/Ability/index/GetAbilityPaper",
                     type: "post",
+                    data: {
+                        'userInfo': '{"AuthID":"47K41D5885D","OrgID":"2","UserID":"3","StructureID":"3"}'
+                    },
                     success: function(t) {
                         r = t.Data,
                             i(1)
