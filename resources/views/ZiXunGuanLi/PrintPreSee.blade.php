@@ -137,7 +137,7 @@
 
     <div class="header_paper"><span id="paperName">1</span></div>
     <input id="org-paperid" type="hidden" value="{{ request()->get('PaperID') }}">
-    <input id="org-subjectid" type="hidden" value="03">
+    <input id="org-subjectid" type="hidden" value="{{ request()->get('SubjectId') }}">
     <input id="org-tempname" type="hidden" value="{{ request()->get('TempName') }}">
     <div class="container2" style="margin-left:2%;width:100%;">
 

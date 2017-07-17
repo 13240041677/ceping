@@ -194,11 +194,11 @@
                     学校：
                     <span class="mr30" data-m1="1"></span>
                 </div>
-                <div data-p1="2" class="inline ml150" style="display: none;">
+                <div data-p1="2" class="inline ml150">
                     电话：
                     <span class="mr30" data-m2="2"></span>
                 </div>
-                <div data-p1="3" style="display: none;">
+                <div data-p1="3">
                     地址：
                     <span class="mr30" data-m3="3"></span>
                 </div>
@@ -791,9 +791,8 @@
 <div style="display:none" id="downloadform"></div>
 
 
-
-<script src="http://ex.mofangge.com/bundle/js/jquery-2.2.0.min.js"></script>
-<script src="http://ex.mofangge.com/bundle/js/vendor.js"></script>
+<script src="{{ asset('bundle/js/jquery-2.2.0.min.js') }}"></script>
+<script src="{{ asset('bundle/js/vendor.js') }}"></script>
 
 
 <script>
@@ -804,7 +803,7 @@
 
     var MeasureIDS = "{{ request()->query('id') }}";
 
-    var MM = '0';
+    var MM = '{{ request()->query('m') }}';
 
     var ReturnUrl = '/OrgZiXun/ZiXunGuanLi/IndexCounselor';
 

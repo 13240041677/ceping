@@ -35944,15 +35944,18 @@ webpackJsonp([17], {
                 }
             }),
             a || $.ajax({
-                url: "/OrgExam/Exam/SaveReportPop",
+                url: "https://oms.mofangge.com/Report/Index/SaveReportPop",
                 type: "post",
-                dataType: "json",
                 data: {
+                    'userInfo': '{"AuthID":"47K41D5885D","OrgID":"2","UserID":"3","StructureID":"3"}',
                     data: escape(JSON.stringify(e))
                 },
                 success: function(e) {
                     $("#popInfo,.pop-mask").hide(),
                         location.href = "/OrgExam/Index/Report?org=1&id=" + MeasureIDS + "&m=1&ReturnUrl=" + ReturnUrl
+                },
+                error: function() {
+                    console.log((JSON.stringify(e)))
                 }
             })
         }
@@ -35988,7 +35991,7 @@ webpackJsonp([17], {
             }
             b.ShowLoading($("#popA1,#popB1,#popD1")),
                 $.ajax({
-                    url: "https://oms.mofangge.com/Report/Index/GetReport",
+                    url: "https://oms.mofangge.com/Report/Index/GetReportPop",
                     type: "post",
                     data: {
                         'userInfo': '{"AuthID":"47K41D5885D","OrgID":"2","UserID":"3","StructureID":"3"}',
